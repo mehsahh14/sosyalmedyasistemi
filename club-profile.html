@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sosyal Medya - Kulüp Profili</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #9fc1e3 !important;
+        }
+
+        .navbar {
+            background: linear-gradient(135deg, #1e3c72 0%, #5191ff 100%) !important;
+        }
+
+        .card {
+            border: 8px solid #e2eaf1 !important;
+            border-radius: 12px !important;
+        }
+
+        .card-title {
+            color: #1e3c72;
+        }
+
+        .text-muted-blue {
+            color: #627d98 !important;
+        }
+
+        .kulup-avatar {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #10b981 0%, #047857 100%);
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px auto;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(16, 185, 129, 0.2);
+        }
+
+        .sayi-kutusu-btn {
+            background-color: #f8fafc;
+            border-radius: 8px;
+            padding: 8px 30px;
+            border: 1px solid #e2eaf1;
+            display: inline-block;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .sayi-kutusu-btn:hover {
+            background-color: #e2eaf1;
+            transform: scale(1.03);
+        }
+
+        /* Modern Kıvrımlı Modal Yapısı */
+        .modal-content {
+            border-radius: 20px !important;
+            overflow: hidden;
+            border: none !important;
+            box-shadow: 0 15px 35px rgba(30, 60, 114, 0.2) !important;
+        }
+
+        .modal-header {
+            background-color: #f0f4f8 !important;
+            color: #1e3c72 !important;
+            border-bottom: 1px solid #e2eaf1 !important;
+            border-top-left-radius: 20px !important;
+            border-top-right-radius: 20px !important;
+        }
+
+        .modal-body {
+            background-color: #ffffff !important;
+            border-bottom-left-radius: 20px !important;
+            border-bottom-right-radius: 20px !important;
+        }
+
+        .liste-satiri {
+            background-color: #f8fafc;
+            border-radius: 8px;
+            padding: 8px 12px;
+            margin-bottom: 8px;
+            border-left: 3px solid #10b981;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="feed.html">BARUSOSYAL</a>
+            <div class="d-flex align-items-center">
+                <a href="feed.html" class="btn btn-light btn-sm me-2 text-primary fw-semibold rounded-pill px-3">Ana
+                    Sayfa</a>
+                <a href="clubs.html"
+                    class="btn btn-light btn-sm me-2 text-primary fw-semibold rounded-pill px-3">Kulüpler</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+
+                <div class="card shadow-sm mb-4 text-center bg-white border-0">
+                    <div class="card-body py-4">
+                        <div id="kulupHarf" class="kulup-avatar shadow-sm">M</div>
+                        <h3 id="kulupAdi" class="card-title fw-bold mb-1">-</h3>
+                        <p id="kulupAciklama" class="text-secondary small px-3 mb-3">-</p>
+
+                        <div class="sayi-kutusu-btn shadow-sm" onclick="uyeleriGoster()">
+                            <h4 id="kulupUyeSayisi" class="fw-bold mb-0 text-dark">0</h4>
+                            <small class="text-muted-blue fw-medium">Resmi Üye</small>
+                        </div>
+
+                        <div class="mt-3 d-flex justify-content-center gap-2" id="butonAlani">
+                            <button id="btnKatil" onclick="kulubeKatilAksiyon()"
+                                class="btn btn-primary btn-sm rounded-pill px-4 fw-semibold shadow-sm">Kulübe
+                                Katıl</button>
+                            <button id="btnEtkinlikAc"
+                                class="btn btn-success btn-sm rounded-pill px-4 fw-semibold shadow-sm d-none"
+                                data-bs-toggle="modal" data-bs-target="#createEventModal">Etkinlik Oluştur</button>
+                        </div>
+                    </div>
+                </div>
+
+                <h5 class="fw-bold mb-3 text-secondary px-1">Kulübün Güncel Etkinlikleri</h5>
+                <div id="kulupEtkinlikAlani"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="memberListModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title fw-bold">Kulüp Üyeleri</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="modalMemberListBody" style="max-height: 350px; overflow-y: auto;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="createEventModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title fw-bold">Yeni Kampüs Etkinliği Planla</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="eventForm">
+                        <div class="mb-3">
+                            <label class="form-label small fw-semibold">Etkinlik Başlığı</label>
+                            <input type="text" id="eventName" class="form-control" required
+                                placeholder="Etkinlik başlığını giriniz">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label small fw-semibold">Etkinlik Detayları</label>
+                            <textarea id="eventDesc" class="form-control" rows="3" required
+                                placeholder="Etkinlik içeriğini ve akış planını belirtiniz"></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label small fw-semibold">Tarih ve Saat</label>
+                                <input type="datetime-local" id="eventDate" class="form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label small fw-semibold">Etkinlik Yeri</label>
+                                <input type="text" id="eventPlace" class="form-control" required
+                                    placeholder="Sınıf, amfi veya salon bilgisi">
+                            </div>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-success btn-sm px-4 rounded-pill float-end fw-semibold">Etkinliği
+                            Yayınla</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const API_URL = "https://localhost:7160/api";
+        const aktifKullaniciId = localStorage.getItem("kullaniciId");
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const kulupId = urlParams.get('id') || 1;
+
+        async function kulupProfiliniYukle() {
+            try {
+                const resDetails = await fetch(`${API_URL}/club/${kulupId}`);
+                if (resDetails.ok) {
+                    const club = await resDetails.json();
+                    document.getElementById("kulupAdi").textContent = club.kulupAdi;
+                    document.getElementById("kulupAciklama").textContent = club.aciklama;
+                    document.getElementById("kulupUyeSayisi").textContent = club.uyeSayisi;
+                    document.getElementById("kulupHarf").textContent = club.kulupAdi.charAt(0).toUpperCase();
+
+                    if (club.olusturanId === parseInt(aktifKullaniciId)) {
+                        document.getElementById("btnEtkinlikAc").classList.remove("d-none");
+                        document.getElementById("btnKatil").classList.add("d-none");
+                    }
+                }
+
+                const resEvents = await fetch(`${API_URL}/club/${kulupId}/events`);
+                if (resEvents.ok) {
+                    const etkinlikler = await resEvents.json();
+                    const alan = document.getElementById("kulupEtkinlikAlani");
+                    alan.innerHTML = "";
+
+                    if (etkinlikler.length === 0) {
+                        alan.innerHTML = "<p class='text-muted text-center small py-3 bg-white rounded border'>Planlanmış aktif bir etkinlik bulunmamaktadır.</p>";
+                        return;
+                    }
+
+                    etkinlikler.forEach(e => {
+                        const tarih = new Date(e.etkinlikTarihi).toLocaleString("tr-TR", { dateStyle: "short", timeStyle: "short" });
+                        alan.insertAdjacentHTML("beforeend", `
+                            <div class="card mb-3 bg-white border-0 shadow-sm p-3">
+                                <h5 class="fw-bold text-success mb-1">${e.etkinlikAdi}</h5>
+                                <p class="text-secondary small mb-2">${e.detay}</p>
+                                <div class="d-flex justify-content-between text-muted small mb-0">
+                                    <span>Yer: <b>${e.yer}</b></span>
+                                    <span>Tarih: <b>${tarih}</b></span>
+                                </div>
+                            </div>
+                        `);
+                    });
+                }
+            } catch (error) { console.error(error); }
+        }
+
+        document.getElementById("eventForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const data = {
+                kulupId: parseInt(kulupId),
+                etkinlikAdi: document.getElementById("eventName").value,
+                detay: document.getElementById("eventDesc").value,
+                etkinlikTarihi: document.getElementById("eventDate").value,
+                yer: document.getElementById("eventPlace").value
+            };
+
+            try {
+                const response = await fetch(`${API_URL}/club/add-event`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(data)
+                });
+                if (response.ok) {
+                    alert("Etkinlik başarıyla oluşturuldu ve duyuruldu.");
+                    bootstrap.Modal.getInstance(document.getElementById('createEventModal')).hide();
+                    document.getElementById("eventForm").reset();
+                    kulupProfiliniYukle();
+                } else {
+                    alert("Etkinlik oluşturulurken bir hata meydana geldi.");
+                }
+            } catch (error) { alert("Sunucu bağlantı hatası."); }
+        });
+
+        async function uyeleriGoster() {
+            const modalBody = document.getElementById("modalMemberListBody");
+            modalBody.innerHTML = "<p class='text-muted text-center small my-3'>Üyeler yükleniyor...</p>";
+            const myModal = new bootstrap.Modal(document.getElementById('memberListModal'));
+            myModal.show();
+            try {
+                const response = await fetch(`${API_URL}/club/${kulupId}/members`);
+                if (response.ok) {
+                    const uyeler = await response.json();
+                    modalBody.innerHTML = "";
+                    if (uyeler.length === 0) {
+                        modalBody.innerHTML = "<p class='text-muted text-center small my-3'>Kulübe ait kayıtlı üye bulunmamaktadır.</p>";
+                        return;
+                    }
+                    uyeler.forEach(u => {
+                        modalBody.insertAdjacentHTML("beforeend", `
+                            <div class="liste-satiri shadow-sm d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="fw-bold small text-primary d-block">@${u.username}</span>
+                                    <small class="text-secondary" style="font-size:11px;">${u.firstName} ${u.lastName}</small>
+                                </div>
+                                <a href="profile.html?id=${u.id}" class="btn btn-sm btn-light py-0 px-2 text-primary border" style="font-size:11px;">Profili Gör</a>
+                            </div>
+                        `);
+                    });
+                }
+            } catch (error) { modalBody.innerHTML = "<p class='text-danger text-center small my-3'>Üye listesi yüklenemedi.</p>"; }
+        }
+
+        async function kulubeKatilAksiyon() {
+            try {
+                const response = await fetch(`${API_URL}/club/join`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ kulupId: parseInt(kulupId), kullaniciId: parseInt(aktifKullaniciId) })
+                });
+                if (response.ok) {
+                    alert("Kulüp üyeliğiniz başarıyla gerçekleştirildi."); kulupProfiliniYukle();
+                } else {
+                    const err = await response.json(); alert(err.error);
+                }
+            } catch (error) { alert("İşlem sırasında bir hata oluştu."); }
+        }
+
+        kulupProfiliniYukle();
+    </script>
+</body>
+
+</html>
