@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SosyalMedyaAPI.Services.Interface;
-using SosyalMedyaAPI.Services.Interface; // Servis arayüzünü dahil et
+using SosyalMedyaAPI.Services.Interface; 
 using static SosyalMedyaAPI.Controllers.ClubController; // DTO'ları kullanabilmek için
 
 namespace SosyalMedyaAPI.Controllers
@@ -26,14 +26,14 @@ namespace SosyalMedyaAPI.Controllers
         public async Task<IActionResult> JoinClub([FromBody] KulupKatilDto dto)
         {
             await _clubService.JoinClubAsync(dto);
-            return Ok(new { message = "Kulübe başarıyla üye olundu! 🎉" });
+            return Ok(new { message = "Kulübe başarıyla üye olundu! " });
         }
 
         [HttpPost("create")]
         public async Task<IActionResult> CreateClub([FromBody] KulupOlusturDto dto)
         {
             await _clubService.CreateClubAsync(dto);
-            return Ok(new { message = "Kulüp başarıyla kuruldu! 🏛️" });
+            return Ok(new { message = "Kulüp başarıyla kuruldu! " });
         }
 
         [HttpGet("{id}")]
@@ -53,7 +53,7 @@ namespace SosyalMedyaAPI.Controllers
         public async Task<IActionResult> AddEvent([FromBody] EtkinlikEkleDto dto)
         {
             await _clubService.AddEventAsync(dto);
-            return Ok(new { message = "Etkinlik başarıyla oluşturuldu! 📢" });
+            return Ok(new { message = "Etkinlik başarıyla oluşturuldu! " });
         }
 
         // DTO yapıların burada kalmaya devam edebilir
