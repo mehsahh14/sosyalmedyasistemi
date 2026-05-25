@@ -1,0 +1,13 @@
+# Visual Studio / .NET için geçici dosyalar
+.vs/
+bin/
+TemplateEngineHost/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Uygulama ayarları (Hassas bilgiler içerebilir)
+appsettings.Development.json
+appsettings.Local.json

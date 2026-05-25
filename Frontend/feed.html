@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sosyal Medya - Ana Sayfa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #9fc1e3 !important;
+        }
+
+        .navbar {
+            background: linear-gradient(135deg, #1e3c72 0%, #5191ff 100%) !important;
+        }
+
+        .btn-primary {
+            background-color: #2a5298 !important;
+            border-color: #2a5298 !important;
+        }
+
+        .btn-primary:hover {
+            background-color: #1e3c72 !important;
+            border-color: #1e3c72 !important;
+        }
+
+        .btn-outline-primary {
+            color: #2a5298 !important;
+            border-color: #2a5298 !important;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: #2a5298 !important;
+            color: #ffffff !important;
+        }
+
+        .btn-outline-secondary {
+            color: #4a6984 !important;
+            border-color: #a0b2c6 !important;
+        }
+
+        .btn-outline-secondary:hover {
+            background-color: #4a6984 !important;
+            color: #ffffff !important;
+            border-color: #4a6984 !important;
+        }
+
+        .card {
+            border: 8px solid #e2eaf1 !important;
+            border-radius: 12px !important;
+            overflow: hidden;
+        }
+
+        .card-title {
+            color: #1e3c72;
+        }
+
+        .text-muted-blue {
+            color: #627d98 !important;
+        }
+
+        #navUsername {
+            transition: all 0.3s ease;
+        }
+
+        #navUsername:hover {
+            background-color: rgba(255, 255, 255, 0.4) !important;
+            transform: scale(1.05);
+        }
+
+        /* ✨ Yorum Penceresi (Modal) Modern Tasarım */
+        .modal-content {
+            border-radius: 20px !important;
+            border: none !important;
+            box-shadow: 0 15px 35px rgba(30, 60, 114, 0.2) !important;
+            overflow: hidden;
+        }
+
+        .modal-header {
+            background-color: #f0f4f8 !important;
+            color: #1e3c72 !important;
+            border-bottom: 1px solid #e2eaf1 !important;
+            border-top-left-radius: 20px !important;
+            border-top-right-radius: 20px !important;
+            padding: 1rem 1.25rem;
+        }
+
+        .modal-body {
+            background-color: #ffffff !important;
+            border-bottom-left-radius: 20px !important;
+            border-bottom-right-radius: 20px !important;
+            padding: 1.25rem;
+        }
+
+        .yorum-satiri {
+            background-color: #f8fafc;
+            border-radius: 10px;
+            padding: 10px 14px;
+            margin-bottom: 10px;
+            border-left: 4px solid #2a5298;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+        }
+
+        .onizleme-kutusu {
+            max-height: 250px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px dashed #2a5298;
+        }
+
+        .notification-dropdown {
+            width: 350px !important;
+            max-height: 420px;
+            overflow-y: auto;
+            border-radius: 12px !important;
+            border: none !important;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        .notification-item {
+            border-bottom: 1px solid #f0f4f8;
+            padding: 10px 15px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: background 0.2s;
+            white-space: normal !important;
+        }
+
+        .notification-item:hover {
+            background-color: #aed6ff;
+        }
+
+        .notification-unread {
+            background-color: #e0f2fe !important;
+            font-weight: 500;
+            border-left: 4px solid #3b82f6;
+        }
+
+        .search-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 8px;
+            border-radius: 50px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .search-input {
+            border: none !important;
+            background: transparent !important;
+            padding-left: 15px !important;
+        }
+
+        .search-btn {
+            border-radius: 50px !important;
+            background: #2a5298 !important;
+            color: white;
+            padding: 8px 25px !important;
+            transition: 0.3s;
+        }
+
+        .search-btn:hover {
+            background: #1e3c72 !important;
+        }
+
+        /* Arama Sonuç Kartı */
+        .search-result-card {
+            background: white;
+            border-radius: 15px;
+            padding: 12px 20px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-left: 5px solid #2a5298;
+            transition: 0.2s;
+        }
+
+        .search-result-card:hover {
+            background: #f1f7ff;
+        }
+
+        .navbar>.container {
+            display: flex !important;
+            justify-content: space-between !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="feed.html">BARUSOSYAL</a>
+
+            <div class="d-flex align-items-center ms-auto">
+
+                <div class="dropdown me-3">
+                    <button class="btn btn-light btn-sm rounded-pill position-relative dropdown-toggle" type="button"
+                        id="notifDropdownBtn" data-bs-toggle="dropdown" aria-expanded="false"
+                        onclick="bildirimleriYukle()">
+                        Bildirimler <span id="notifBadge"
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger d-none">0</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end notification-dropdown" aria-labelledby="notifDropdownBtn"
+                        id="notifMenu">
+                        <li class="p-3 text-center text-muted small">Bildirimler yükleniyor...</li>
+                    </ul>
+                </div>
+
+                <a href="clubs.html"
+                    class="btn btn-light btn-sm me-3 text-primary fw-semibold rounded-pill px-3">Kulüpler &
+                    Etkinlikler</a>
+
+                <a href="profile.html" class="text-decoration-none me-3">
+                    <span id="navUsername"
+                        class="text-white fw-bold bg-white bg-opacity-25 px-3 py-1 rounded-pill shadow-sm transition-all"
+                        style="cursor: pointer;">@kullanici</span>
+                </a>
+
+                <button onclick="cikisYap()" class="btn btn-danger btn-sm rounded-pill px-3">Çıkış</button>
+            </div>
+        </div>
+    </nav>
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-6">
+            <div class="search-container d-flex align-items-center">
+                <input type="text" id="searchInput" class="form-control search-input"
+                    placeholder="İsim veya kullanıcı adı arayın...">
+                <button onclick="kullaniciAra()" class="btn search-btn">Ara</button>
+            </div>
+            <div id="searchResults" class="mt-3"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-sm mb-4 bg-white border-0">
+                    <div class="card-body p-4">
+                        <h5 class="card-title fw-bold mb-3">Ne düşünüyorsun?</h5>
+                        <form id="postForm">
+                            <div class="mb-3">
+                                <label class="form-label small text-muted-blue fw-semibold">Bir Fotoğraf Seçin (İsteğe
+                                    Bağlı)</label>
+                                <input type="file" id="postFotoDosya" onchange="resimOnizle(this)"
+                                    class="form-control form-control-sm border-info-subtle" accept="image/*">
+                            </div>
+                            <div id="onizlemeKonteyner" class="mb-3 d-none">
+                                <label class="form-label small text-muted-blue fw-semibold">Seçilen Resim
+                                    Önizlemesi:</label>
+                                <img id="postFotoOnizleme" src="" class="onizleme-kutusu shadow-sm" alt="Önizleme">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label small text-muted-blue fw-semibold">Açıklama (İsteğe
+                                    Bağlı)</label>
+                                <textarea id="postAciklama" class="form-control border-info-subtle" rows="2"
+                                    placeholder="Kampüste harika bir gün..."></textarea>
+                            </div>
+                            <button type="submit"
+                                class="btn btn-primary btn-sm px-4 rounded-pill float-end fw-semibold shadow-sm">Paylaş</button>
+                        </form>
+                    </div>
+                </div>
+                <h5 class="text-muted-blue fw-bold mb-3 px-1">Son Paylaşımlar</h5>
+                <div id="feedContainer"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="commentsModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title fw-bold"> Yorumlar</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalCommentsBody" style="max-height: 350px; overflow-y: auto;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const API_URL = "https://localhost:7160/api";
+        const aktifKullaniciId = localStorage.getItem("kullaniciId");
+        const aktifKullaniciAdi = localStorage.getItem("kullaniciAdi");
+
+        if (!aktifKullaniciId) {
+            alert("Lütfen önce giriş yapın!");
+            window.location.href = "index.html";
+        } else {
+            document.getElementById("navUsername").textContent = "@" + aktifKullaniciAdi;
+        }
+
+        function resimOnizle(input) {
+            const konteyner = document.getElementById("onizlemeKonteyner");
+            const onizlemeImg = document.getElementById("postFotoOnizleme");
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    onizlemeImg.src = e.target.result;
+                    konteyner.classList.remove("d-none");
+                }
+                reader.readAsDataURL(input.files[0]);
+            } else {
+                konteyner.classList.add("d-none");
+            }
+        }
+
+        async function gonderileriYukle() {
+            try {
+                const response = await fetch(`${API_URL}/post/all`);
+                if (response.ok) {
+                    const gonderiler = await response.json();
+                    const feedContainer = document.getElementById("feedContainer");
+                    feedContainer.innerHTML = "";
+                    if (gonderiler.length === 0) {
+                        feedContainer.innerHTML = "<p class='text-muted-blue text-center mt-4 bg-white p-4 rounded shadow-sm'>Henüz hiç gönderi paylaşılmamış.</p>";
+                        return;
+                    }
+                    gonderiler.forEach(post => {
+                        const fotoHtml = post.fotograf && post.fotograf.trim() !== ""
+                            ? `<img src="${API_URL.replace('/api', '')}${post.fotograf}" class="card-img-top" alt="Gönderi Resmi" style="max-height: 450px; object-fit: cover;">`
+                            : "";
+                        const aciklamaHtml = post.aciklama && post.aciklama.trim() !== ""
+                            ? `<p class="card-text mb-3"><a href="profile.html?id=${post.kullaniciId}" class="fw-bold text-primary text-decoration-none">@${post.kullaniciAdi}</a> ${post.aciklama}</p>`
+                            : `<p class="card-text mb-3"><a href="profile.html?id=${post.kullaniciId}" class="fw-bold text-primary text-decoration-none">@${post.kullaniciAdi}</a></p>`;
+                        feedContainer.insertAdjacentHTML("beforeend", `
+                        <div class="card shadow-sm mb-4 bg-white border-0">
+                            <div class="card-header bg-white border-0 pt-3 pb-2 px-4 d-flex align-items-center">
+                                <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center fw-bold shadow-sm" style="width: 32px; height: 32px; font-size: 14px;">${post.kullaniciAdi.charAt(0).toUpperCase()}</div>
+                                <a href="profile.html?id=${post.kullaniciId}" class="fw-bold text-primary ms-2 text-decoration-none" style="font-size: 15px;">@${post.kullaniciAdi}</a>
+                            </div>
+                            ${fotoHtml}
+                            <div class="card-body p-4">
+                                ${aciklamaHtml}
+                                <div class="d-flex gap-2 align-items-center mb-3">
+                                    <button onclick="begeniEkle(${post.gonderiId})" class="btn btn-outline-primary btn-sm rounded-pill px-3 fw-semibold">💙 Beğen (${post.begeniSayisi})</button>
+                                    <button onclick="yorumlarıGoster(${post.gonderiId})" class="btn btn-outline-secondary btn-sm rounded-pill px-3 fw-semibold">💬 Yorumlar</button>
+                                </div>
+                                <div class="input-group input-group-sm mt-3 shadow-sm rounded-pill overflow-hidden">
+                                    <input type="text" class="form-control border-0 px-3 bg-light" placeholder="Yorum yaz...">
+                                    <button onclick="yorumYap(${post.gonderiId}, this)" class="btn btn-primary px-3 fw-semibold" type="button">Gönder</button>
+                                </div>
+                            </div>
+                        </div>
+                    `);
+                    });
+                }
+            } catch (error) { console.error(error); }
+        }
+        async function kullaniciAra() {
+            const query = document.getElementById("searchInput").value.trim();
+            const resultsArea = document.getElementById("searchResults");
+
+            if (!query) { resultsArea.innerHTML = ""; return; }
+
+            try {
+                const response = await fetch(`${API_URL}/user/search?query=${encodeURIComponent(query)}`);
+                if (response.ok) {
+                    const result = await response.json();
+                    resultsArea.innerHTML = "";
+
+                    if (result.data.length === 0) {
+                        resultsArea.innerHTML = "<div class='text-white text-center small'>Aranan kriterde kullanıcı bulunamadı.</div>";
+                        return;
+                    }
+
+                    result.data.forEach(user => {
+                        resultsArea.insertAdjacentHTML("beforeend", `
+                    <div class="search-result-card shadow-sm">
+                        <div>
+                            <span class="fw-bold text-primary-blue">@${user.kullaniciAdi}</span>
+                            <small class="text-secondary d-block">${user.ad} ${user.soyad}</small>
+                        </div>
+                        <a href="profile.html?id=${user.id}" class="btn btn-sm btn-outline-primary rounded-pill px-3">Profili Gör</a>
+                    </div>
+                `);
+                    });
+                }
+            } catch (error) { console.error("Arama hatası:", error); }
+        }
+
+        // ... diğer fonksiyonlar (yorumlarıGoster vb.) aynen kalabilir
+        async function yorumlarıGoster(gonderiId) {
+            const modalBody = document.getElementById("modalCommentsBody");
+            modalBody.innerHTML = "<p class='text-muted-blue text-center small my-3'>Yorumlar yükleniyor...</p>";
+            const myModal = new bootstrap.Modal(document.getElementById('commentsModal'));
+            myModal.show();
+            try {
+                const response = await fetch(`${API_URL}/comment/${gonderiId}`);
+                if (response.ok) {
+                    const yorumlar = await response.json();
+                    modalBody.innerHTML = "";
+                    if (yorumlar.length === 0) { modalBody.innerHTML = "<p class='text-muted-blue text-center small my-3'>Henüz yorum yapılmamış.</p>"; return; }
+                    yorumlar.forEach(y => {
+                        modalBody.insertAdjacentHTML("beforeend", `<div class="yorum-satiri shadow-sm"><span class="fw-bold small text-primary">@${y.kullaniciAdi}:</span> <span class="small text-dark">${y.yorumMetni}</span></div>`);
+                    });
+                }
+            } catch (error) { modalBody.innerHTML = "<p class='text-danger text-center small my-3'>Yorumlar getirilemedi.</p>"; }
+        }
+
+        async function begeniEkle(gonderiId) {
+            try {
+                const response = await fetch(`${API_URL}/like/add?kullaniciId=${aktifKullaniciId}&gonderiId=${gonderiId}`, { method: "POST" });
+                if (response.ok) gonderileriYukle();
+            } catch (error) { alert("Beğeni işlenirken sunucu hatası."); }
+        }
+
+        async function yorumYap(gonderiId, btnElement) {
+            const input = btnElement.previousElementSibling;
+            const yorumMetni = input.value;
+            if (!yorumMetni.trim()) return;
+            try {
+                const response = await fetch(`${API_URL}/comment/add?kullaniciId=${aktifKullaniciId}&gonderiId=${gonderiId}&yorum=${encodeURIComponent(yorumMetni)}`, { method: "POST" });
+                if (response.ok) { alert("Yorum eklendi!"); input.value = ""; gonderileriYukle(); }
+            } catch (error) { alert("Yorum gönderilemedi."); }
+        }
+
+        async function bildirimleriYukle() {
+            try {
+                const response = await fetch(`${API_URL}/notification/${aktifKullaniciId}`);
+                if (response.ok) {
+                    const bildirimler = await response.json();
+                    const notifMenu = document.getElementById("notifMenu");
+                    const notifBadge = document.getElementById("notifBadge");
+                    notifMenu.innerHTML = `<li class="p-2 border-bottom fw-bold text-center text-primary small">Bildirimler</li>`;
+                    const okunmamisSayisi = bildirimler.filter(b => !b.isRead).length;
+                    if (okunmamisSayisi > 0) { notifBadge.textContent = okunmamisSayisi; notifBadge.classList.remove("d-none"); } else { notifBadge.classList.add("d-none"); }
+                    if (bildirimler.length === 0) { notifMenu.innerHTML += `<li class="p-3 text-center text-muted small">Henüz bildiriminiz yok.</li>`; return; }
+                    bildirimler.forEach(b => {
+                        let bildirimMetni = "";
+                        if (b.bildirimTuru === "begeni") bildirimMetni = `<b>@${b.tetikleyenKullaniciAdi}</b> gönderini beğendi.`;
+                        else if (b.bildirimTuru === "yorum") bildirimMetni = `<b>@${b.tetikleyenKullaniciAdi}</b> gönderine yorum yaptı: "${b.icerik}"`;
+                        else if (b.bildirimTuru === "takip") bildirimMetni = `<b>@${b.tetikleyenKullaniciAdi}</b> seni takip etmeye başladı.`;
+                        const unreadClass = !b.isRead ? "notification-unread" : "";
+                        notifMenu.insertAdjacentHTML("beforeend", `<li><a class="dropdown-item notification-item ${unreadClass}" onclick="bildirimOku(${b.bildirimId}, ${b.gonderiId})"><div>${bildirimMetni}</div><small class="text-muted" style="font-size:10px;">${new Date(b.olusturulmaTarihi).toLocaleDateString()}</small></a></li>`);
+                    });
+                }
+            } catch (error) { console.error("Bildirimler yüklenirken sistem hatası:", error); }
+        }
+
+        async function bildirimOku(bildirimId, gonderiId) {
+            try {
+                await fetch(`${API_URL}/notification/read/${bildirimId}/${aktifKullaniciId}`, { method: "PUT" });
+                bildirimleriYukle();
+                if (gonderiId) window.location.href = `profile.html?id=${aktifKullaniciId}`;
+            } catch (error) { console.error(error); }
+        }
+
+        function cikisYap() { localStorage.clear(); window.location.href = "index.html"; }
+
+        document.getElementById("postForm").addEventListener("submit", async function (e) {
+            e.preventDefault(); // Sayfanın yenilenmesini engelle
+
+            const aciklama = document.getElementById("postAciklama").value.trim();
+            const fotoDosya = document.getElementById("postFotoDosya").files[0];
+
+            if (!aciklama && !fotoDosya) {
+                alert("Lütfen en az bir fotoğraf veya açıklama ekleyin.");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("KullaniciId", aktifKullaniciId);
+            formData.append("Aciklama", aciklama);
+            if (fotoDosya) {
+                formData.append("FotografDosyasi", fotoDosya);
+            }
+
+            try {
+                const response = await fetch(`${API_URL}/post/create`, {
+                    method: "POST",
+                    body: formData
+                    // Content-Type header'ı YAZMA — tarayıcı boundary'yi otomatik ekler
+                });
+
+                if (response.ok) {
+                    document.getElementById("postAciklama").value = "";
+                    document.getElementById("postFotoDosya").value = "";
+                    document.getElementById("onizlemeKonteyner").classList.add("d-none");
+                    gonderileriYukle();
+                } else {
+                    const hata = await response.text();
+                    alert("Hata: " + hata);
+                }
+            } catch (error) {
+                alert("Sunucuya bağlanılamadı: " + error.message);
+            }
+        });
+
+        gonderileriYukle();
+        bildirimleriYukle();
+        setInterval(bildirimleriYukle, 30000);
+    </script>
+</body>
+
+</html>

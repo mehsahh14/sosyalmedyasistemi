@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BARUSOSYAL - Kulüpler ve Etkinlikler</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #9fc1e3 !important; }
+        .navbar { background: linear-gradient(135deg, #1e3c72 0%, #5191ff 100%) !important; }
+        .card { border: 6px solid #e2eaf1 !important; border-radius: 12px !important; }
+        .text-primary-blue { color: #1e3c72 !important; }
+        .btn-primary { background-color: #2a5298 !important; border-color: #2a5298 !important; }
+        .btn-primary:hover { background-color: #1e3c72 !important; }
+        .etkinlik-badge { background-color: #e0f2fe; color: #0369a1; font-weight: 600; padding: 5px 12px; border-radius: 20px; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="feed.html">BARUSOSYAL</a>
+            <div class="d-flex align-items-center">
+                <span id="navUsername" class="text-white me-3 fw-semibold bg-white bg-opacity-25 px-3 py-1 rounded-pill">@kullanici</span>
+                <a href="feed.html" class="btn btn-light btn-sm me-2 text-primary fw-semibold rounded-pill px-3">Ana Sayfa</a>
+                <a href="profile.html" class="btn btn-light btn-sm me-2 text-primary fw-semibold rounded-pill px-3">Profilim</a>
+                <button onclick="cikisYap()" class="btn btn-danger btn-sm rounded-pill px-3">Çıkış</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mb-4">
+                <h4 class="text-primary-blue fw-bold mb-3">📅 Yaklaşan Kampüs Etkinlikleri</h4>
+                <div id="etkinliklerAlani" class="row row-cols-1 row-cols-md-2 g-3">
+                    </div>
+            </div>
+
+            <div class="col-md-4">
+                <h4 class="text-primary-blue fw-bold mb-3">🤝 Öğrenci Kulüpleri</h4>
+                <div class="card shadow-sm p-3 bg-white border-0">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item d-flex justify-content-between align-items-center py-3">
+                            <div>
+                                <h6 class="fw-bold mb-0 text-dark">Yazılım ve Bilişim Kulübü</h6>
+                                <small class="text-muted">Teknoloji ve kodlama odaklı topluluk.</small>
+                            </div>
+                            <button onclick="kulubeKatil(1)" class="btn btn-sm btn-primary rounded-pill px-3">Katıl</button>
+                        </div>
+                        <div class="list-group-item d-flex justify-content-between align-items-center py-3">
+                            <div>
+                                <h6 class="fw-bold mb-0 text-dark">Havacılık ve Uzay Kulübü</h6>
+                                <small class="text-muted">Roket, İHA ve Telemetri projeleri.</small>
+                            </div>
+                            <button onclick="kulubeKatil(2)" class="btn btn-sm btn-primary rounded-pill px-3">Katıl</button>
+                        </div>
+                        <div class="list-group-item d-flex justify-content-between align-items-center py-3">
+                            <div>
+                                <h6 class="fw-bold mb-0 text-dark">Müzik ve Sanat Kulübü</h6>
+                                <small class="text-muted">Kampüs konserleri ve etkinlikler.</small>
+                            </div>
+                            <button onclick="kulubeKatil(3)" class="btn btn-sm btn-primary rounded-pill px-3">Katıl</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = "https://localhost:7160/api"; 
+        const aktifKullaniciId = localStorage.getItem("kullaniciId");
+        const aktifKullaniciAdi = localStorage.getItem("kullaniciAdi");
+
+        if (!aktifKullaniciId) {
+            window.location.href = "index.html";
+        } else {
+            document.getElementById("navUsername").textContent = "@" + aktifKullaniciAdi;
+        }
+
+        // 1. ETKİNLİKLERİ API'DEN YÜKLE
+        async function etkinlikleriYukle() {
+            const alan = document.getElementById("etkinliklerAlani");
+            alan.innerHTML = "<p class='text-white px-3'>Etkinlikler yükleniyor...</p>";
+
+            try {
+                const response = await fetch(`${API_URL}/club/events`);
+                if (response.ok) {
+                    const etkinlikler = await response.json();
+                    alan.innerHTML = "";
+
+                    if (etkinlikler.length === 0) {
+                        alan.innerHTML = "<p class='text-white px-3'>Henüz planlanmış aktif bir etkinlik yok.</p>";
+                        return;
+                    }
+
+                    etkinlikler.forEach(e => {
+                        const tarih = new Date(e.etkinlikTarihi).toLocaleString("tr-TR", { dateStyle: "short", timeStyle: "short" });
+                        const kartHtml = `
+                            <div class="col">
+                                <div class="card h-100 shadow-sm border-0 bg-white p-3">
+                                    <div class="d-flex justify-content-between align-items-start mb-2">
+                                        <span class="etkinlik-badge small">📌 ${e.kulupAdi}</span>
+                                    </div>
+                                    <h5 class="fw-bold text-primary-blue mb-2">${e.etkinlikAdi}</h5>
+                                    <p class="text-secondary small flex-grow-1">${e.detay}</p>
+                                    <hr class="my-2 text-muted">
+                                    <div class="d-flex justify-content-between align-items-center text-muted" style="font-size: 12px;">
+                                        <span>📍 Yer: <b>${e.yer}</b></span>
+                                        <span>🕒 <b>${tarih}</b></span>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        alan.insertAdjacentHTML("beforeend", kartHtml);
+                    });
+                }
+            } catch (error) {
+                alan.innerHTML = "<p class='text-danger px-3'>Etkinlikler getirilirken sunucu hatası oluştu.</p>";
+            }
+        }
+
+        // 2. KULÜBE KATILMA AKSİYONU
+        async function kulubeKatil(kulupId) {
+            try {
+                const response = await fetch(`${API_URL}/club/join`, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ kulupId: parseInt(kulupId), kullaniciId: parseInt(aktifKullaniciId) })
+                });
+
+                if (response.ok) {
+                    alert("Kulübe katılım kaydınız başarıyla yapıldı! 🎉");
+                } else {
+                    const err = await response.json();
+                    alert(err.error || "Kulübe zaten üyesiniz.");
+                }
+            } catch (error) {
+                alert("İşlem gerçekleştirilemedi.");
+            }
+        }
+
+        function cikisYap() {
+            localStorage.clear();
+            window.location.href = "index.html";
+        }
+
+        etkinlikleriYukle();
+    </script>
+</body>
+</html>
