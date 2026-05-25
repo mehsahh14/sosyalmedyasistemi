@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\webapplication\\SosyalMedyaAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD845FA6-AC8D-44C7-9D96-418019B14C3A}|SosyalMedyaAPI\\SosyalMedyaAPI.csproj|d:\\webapplication\\sosyalmedyaapi\\sosyalmedyaapi\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD845FA6-AC8D-44C7-9D96-418019B14C3A}|SosyalMedyaAPI\\SosyalMedyaAPI.csproj|solutionrelative:sosyalmedyaapi\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD845FA6-AC8D-44C7-9D96-418019B14C3A}|SosyalMedyaAPI\\SosyalMedyaAPI.csproj|d:\\webapplication\\sosyalmedyaapi\\sosyalmedyaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD845FA6-AC8D-44C7-9D96-418019B14C3A}|SosyalMedyaAPI\\SosyalMedyaAPI.csproj|solutionrelative:sosyalmedyaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD845FA6-AC8D-44C7-9D96-418019B14C3A}|SosyalMedyaAPI\\SosyalMedyaAPI.csproj|d:\\webapplication\\sosyalmedyaapi\\sosyalmedyaapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD845FA6-AC8D-44C7-9D96-418019B14C3A}|SosyalMedyaAPI\\SosyalMedyaAPI.csproj|solutionrelative:sosyalmedyaapi\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD845FA6-AC8D-44C7-9D96-418019B14C3A}|SosyalMedyaAPI\\SosyalMedyaAPI.csproj|d:\\webapplication\\sosyalmedyaapi\\sosyalmedyaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD845FA6-AC8D-44C7-9D96-418019B14C3A}|SosyalMedyaAPI\\SosyalMedyaAPI.csproj|solutionrelative:sosyalmedyaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaAPI\\Controllers\\NotificationController.cs",
+              "ToolTip": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "SosyalMedyaAPI\\Controllers\\NotificationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T17:16:26.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaAPI\\Controllers\\CommentController.cs",
+              "ToolTip": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "SosyalMedyaAPI\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T17:15:16.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SosyalMedyaAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:52:41.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SosyalMedyaAPI\\Program.cs",
+              "ToolTip": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\Program.cs",
+              "RelativeToolTip": "SosyalMedyaAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T21:53:52.643Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1670 @@
+{
+  "Version": 1,
+  "Hash": "TXyVhM7bWfiwQRA3r9gLvr326I7S+3vmD7jqmKmlPDA=",
+  "Source": "SosyalMedyaAPI",
+  "BasePath": "_content/SosyalMedyaAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SosyalMedyaAPI\\wwwroot",
+      "Source": "SosyalMedyaAPI",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\058fe432-a695-4a7b-a67e-9d1647030d81.jpg",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/058fe432-a695-4a7b-a67e-9d1647030d81#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ejysn28sh7",
+      "Integrity": "JiNE6iltE0vxzioygBLYIAhLZpXvhYvRLXm+d4ZsGLM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\058fe432-a695-4a7b-a67e-9d1647030d81.jpg"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\0742af13-13a3-4b21-994b-0e4b3837c4b0.jpg",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/0742af13-13a3-4b21-994b-0e4b3837c4b0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "izsyomacgw",
+      "Integrity": "wmgUtKtTUlnjk3yYsemRSUKHoUgsYgoVf/dPdl5r8Mg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\0742af13-13a3-4b21-994b-0e4b3837c4b0.jpg"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\13326d62-71a6-44b0-ab23-242daf19335b.png",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/13326d62-71a6-44b0-ab23-242daf19335b#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pt6eplwxir",
+      "Integrity": "83g/nviAopPJ9K0qKgQsxTmisFr2Jq2PGZ72emLoDv0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\13326d62-71a6-44b0-ab23-242daf19335b.png"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\18561ce5-3513-4ee4-9ac9-ded8ef82e2b7.png",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/18561ce5-3513-4ee4-9ac9-ded8ef82e2b7#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "weo8nik2oe",
+      "Integrity": "mOx8X9zZtDV7k4KhIyPY9ZX9aPZbXnlJP5Z4jeH7w5I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\18561ce5-3513-4ee4-9ac9-ded8ef82e2b7.png"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\1fcdbc28-adde-4a50-ac8e-533d84b1966b.png",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/1fcdbc28-adde-4a50-ac8e-533d84b1966b#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pt6eplwxir",
+      "Integrity": "83g/nviAopPJ9K0qKgQsxTmisFr2Jq2PGZ72emLoDv0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\1fcdbc28-adde-4a50-ac8e-533d84b1966b.png"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\2949c170-2f81-4cd1-9886-2e808473d95b.jpg",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/2949c170-2f81-4cd1-9886-2e808473d95b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xa11hm5jbl",
+      "Integrity": "J2qYmQjXEELLZhaqYw78EjzsXHPXSClVzZ+ZoeS+hXE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\2949c170-2f81-4cd1-9886-2e808473d95b.jpg"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\40641cd1-2e87-43cf-bfdb-2b97f2dfcee4.jpg",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/40641cd1-2e87-43cf-bfdb-2b97f2dfcee4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x4y3ldtd92",
+      "Integrity": "kWhWHGkIl0ZKljx5gghLj/oMXVorRGc6LTdPmjgN5CU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\40641cd1-2e87-43cf-bfdb-2b97f2dfcee4.jpg"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\42f95e2c-e37c-43a5-a565-83651fdf26b5.png",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/42f95e2c-e37c-43a5-a565-83651fdf26b5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o4u9arc58z",
+      "Integrity": "yJa2vjloHu19eI44twQGgU72xVD3Y8CB+SAFUAdQAKY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\42f95e2c-e37c-43a5-a565-83651fdf26b5.png"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\5b619430-0560-49e6-be88-de7cebeb3283.jpg",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/5b619430-0560-49e6-be88-de7cebeb3283#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bi0cxhg052",
+      "Integrity": "kzJJyLV1g2giZ2tr4rh7SUPvvB0hR2MwHwvTmvTos0I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5b619430-0560-49e6-be88-de7cebeb3283.jpg"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\7d528e0b-2a70-4a68-9dde-5f8baa8d9139.jpeg",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/7d528e0b-2a70-4a68-9dde-5f8baa8d9139#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "15i34ztbrz",
+      "Integrity": "awFKvbI7o46w18RDw0dbxNsU7lzEEu839sv+U3ROHNw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\7d528e0b-2a70-4a68-9dde-5f8baa8d9139.jpeg"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\c0208083-e516-4e74-a665-ecd6921c28d4.jpg",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/c0208083-e516-4e74-a665-ecd6921c28d4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e61f0t7mkf",
+      "Integrity": "tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\c0208083-e516-4e74-a665-ecd6921c28d4.jpg"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\cb19231d-bfe4-466c-9b2a-9806c8e8d23b.jpg",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/cb19231d-bfe4-466c-9b2a-9806c8e8d23b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e61f0t7mkf",
+      "Integrity": "tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cb19231d-bfe4-466c-9b2a-9806c8e8d23b.jpg"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\d930eb82-5441-47d8-9601-ed69561dc6ad.jpg",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/d930eb82-5441-47d8-9601-ed69561dc6ad#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bi0cxhg052",
+      "Integrity": "kzJJyLV1g2giZ2tr4rh7SUPvvB0hR2MwHwvTmvTos0I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\d930eb82-5441-47d8-9601-ed69561dc6ad.jpg"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\e50b7cdb-f3ed-4f50-acba-9b5571be3200.jpg",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/e50b7cdb-f3ed-4f50-acba-9b5571be3200#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e61f0t7mkf",
+      "Integrity": "tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\e50b7cdb-f3ed-4f50-acba-9b5571be3200.jpg"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\e91370f7-9f8d-446d-822a-ed7a9ce72567.jpg",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/e91370f7-9f8d-446d-822a-ed7a9ce72567#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e61f0t7mkf",
+      "Integrity": "tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\e91370f7-9f8d-446d-822a-ed7a9ce72567.jpg"
+    },
+    {
+      "Identity": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\f2e7181e-953f-478b-a8d6-6092ef36e7c0.jpg",
+      "SourceId": "SosyalMedyaAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\",
+      "BasePath": "_content/SosyalMedyaAPI",
+      "RelativePath": "uploads/f2e7181e-953f-478b-a8d6-6092ef36e7c0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4jxzm7a3lx",
+      "Integrity": "gEaS2FmszC8zEcLE9zwIUoA/JvIl6LowfJXygiQdFbo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\f2e7181e-953f-478b-a8d6-6092ef36e7c0.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/058fe432-a695-4a7b-a67e-9d1647030d81.ejysn28sh7.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\058fe432-a695-4a7b-a67e-9d1647030d81.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "125858"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JiNE6iltE0vxzioygBLYIAhLZpXvhYvRLXm+d4ZsGLM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 May 2026 16:54:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ejysn28sh7"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/058fe432-a695-4a7b-a67e-9d1647030d81.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JiNE6iltE0vxzioygBLYIAhLZpXvhYvRLXm+d4ZsGLM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/058fe432-a695-4a7b-a67e-9d1647030d81.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\058fe432-a695-4a7b-a67e-9d1647030d81.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "125858"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JiNE6iltE0vxzioygBLYIAhLZpXvhYvRLXm+d4ZsGLM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 May 2026 16:54:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JiNE6iltE0vxzioygBLYIAhLZpXvhYvRLXm+d4ZsGLM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0742af13-13a3-4b21-994b-0e4b3837c4b0.izsyomacgw.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\0742af13-13a3-4b21-994b-0e4b3837c4b0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "218219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmgUtKtTUlnjk3yYsemRSUKHoUgsYgoVf/dPdl5r8Mg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 May 2026 17:08:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "izsyomacgw"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/0742af13-13a3-4b21-994b-0e4b3837c4b0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmgUtKtTUlnjk3yYsemRSUKHoUgsYgoVf/dPdl5r8Mg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0742af13-13a3-4b21-994b-0e4b3837c4b0.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\0742af13-13a3-4b21-994b-0e4b3837c4b0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "218219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmgUtKtTUlnjk3yYsemRSUKHoUgsYgoVf/dPdl5r8Mg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 May 2026 17:08:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmgUtKtTUlnjk3yYsemRSUKHoUgsYgoVf/dPdl5r8Mg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/13326d62-71a6-44b0-ab23-242daf19335b.png",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\13326d62-71a6-44b0-ab23-242daf19335b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7094543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"83g/nviAopPJ9K0qKgQsxTmisFr2Jq2PGZ72emLoDv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 May 2026 15:59:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-83g/nviAopPJ9K0qKgQsxTmisFr2Jq2PGZ72emLoDv0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/13326d62-71a6-44b0-ab23-242daf19335b.pt6eplwxir.png",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\13326d62-71a6-44b0-ab23-242daf19335b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7094543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"83g/nviAopPJ9K0qKgQsxTmisFr2Jq2PGZ72emLoDv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 May 2026 15:59:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pt6eplwxir"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/13326d62-71a6-44b0-ab23-242daf19335b.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-83g/nviAopPJ9K0qKgQsxTmisFr2Jq2PGZ72emLoDv0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/18561ce5-3513-4ee4-9ac9-ded8ef82e2b7.png",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\18561ce5-3513-4ee4-9ac9-ded8ef82e2b7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mOx8X9zZtDV7k4KhIyPY9ZX9aPZbXnlJP5Z4jeH7w5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 18:38:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mOx8X9zZtDV7k4KhIyPY9ZX9aPZbXnlJP5Z4jeH7w5I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/18561ce5-3513-4ee4-9ac9-ded8ef82e2b7.weo8nik2oe.png",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\18561ce5-3513-4ee4-9ac9-ded8ef82e2b7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mOx8X9zZtDV7k4KhIyPY9ZX9aPZbXnlJP5Z4jeH7w5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 18:38:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "weo8nik2oe"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/18561ce5-3513-4ee4-9ac9-ded8ef82e2b7.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mOx8X9zZtDV7k4KhIyPY9ZX9aPZbXnlJP5Z4jeH7w5I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1fcdbc28-adde-4a50-ac8e-533d84b1966b.png",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\1fcdbc28-adde-4a50-ac8e-533d84b1966b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7094543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"83g/nviAopPJ9K0qKgQsxTmisFr2Jq2PGZ72emLoDv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 May 2026 15:50:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-83g/nviAopPJ9K0qKgQsxTmisFr2Jq2PGZ72emLoDv0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1fcdbc28-adde-4a50-ac8e-533d84b1966b.pt6eplwxir.png",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\1fcdbc28-adde-4a50-ac8e-533d84b1966b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7094543"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"83g/nviAopPJ9K0qKgQsxTmisFr2Jq2PGZ72emLoDv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 May 2026 15:50:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pt6eplwxir"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/1fcdbc28-adde-4a50-ac8e-533d84b1966b.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-83g/nviAopPJ9K0qKgQsxTmisFr2Jq2PGZ72emLoDv0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2949c170-2f81-4cd1-9886-2e808473d95b.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\2949c170-2f81-4cd1-9886-2e808473d95b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J2qYmQjXEELLZhaqYw78EjzsXHPXSClVzZ+ZoeS+hXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 16:03:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J2qYmQjXEELLZhaqYw78EjzsXHPXSClVzZ+ZoeS+hXE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2949c170-2f81-4cd1-9886-2e808473d95b.xa11hm5jbl.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\2949c170-2f81-4cd1-9886-2e808473d95b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J2qYmQjXEELLZhaqYw78EjzsXHPXSClVzZ+ZoeS+hXE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 16:03:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xa11hm5jbl"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/2949c170-2f81-4cd1-9886-2e808473d95b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J2qYmQjXEELLZhaqYw78EjzsXHPXSClVzZ+ZoeS+hXE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/40641cd1-2e87-43cf-bfdb-2b97f2dfcee4.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\40641cd1-2e87-43cf-bfdb-2b97f2dfcee4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kWhWHGkIl0ZKljx5gghLj/oMXVorRGc6LTdPmjgN5CU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 18:48:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kWhWHGkIl0ZKljx5gghLj/oMXVorRGc6LTdPmjgN5CU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/40641cd1-2e87-43cf-bfdb-2b97f2dfcee4.x4y3ldtd92.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\40641cd1-2e87-43cf-bfdb-2b97f2dfcee4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kWhWHGkIl0ZKljx5gghLj/oMXVorRGc6LTdPmjgN5CU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 18:48:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x4y3ldtd92"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/40641cd1-2e87-43cf-bfdb-2b97f2dfcee4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kWhWHGkIl0ZKljx5gghLj/oMXVorRGc6LTdPmjgN5CU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/42f95e2c-e37c-43a5-a565-83651fdf26b5.o4u9arc58z.png",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\42f95e2c-e37c-43a5-a565-83651fdf26b5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yJa2vjloHu19eI44twQGgU72xVD3Y8CB+SAFUAdQAKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 18:38:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o4u9arc58z"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/42f95e2c-e37c-43a5-a565-83651fdf26b5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yJa2vjloHu19eI44twQGgU72xVD3Y8CB+SAFUAdQAKY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/42f95e2c-e37c-43a5-a565-83651fdf26b5.png",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\42f95e2c-e37c-43a5-a565-83651fdf26b5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yJa2vjloHu19eI44twQGgU72xVD3Y8CB+SAFUAdQAKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 18:38:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yJa2vjloHu19eI44twQGgU72xVD3Y8CB+SAFUAdQAKY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5b619430-0560-49e6-be88-de7cebeb3283.bi0cxhg052.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\5b619430-0560-49e6-be88-de7cebeb3283.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kzJJyLV1g2giZ2tr4rh7SUPvvB0hR2MwHwvTmvTos0I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 18:33:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bi0cxhg052"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5b619430-0560-49e6-be88-de7cebeb3283.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kzJJyLV1g2giZ2tr4rh7SUPvvB0hR2MwHwvTmvTos0I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5b619430-0560-49e6-be88-de7cebeb3283.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\5b619430-0560-49e6-be88-de7cebeb3283.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kzJJyLV1g2giZ2tr4rh7SUPvvB0hR2MwHwvTmvTos0I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 18:33:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kzJJyLV1g2giZ2tr4rh7SUPvvB0hR2MwHwvTmvTos0I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7d528e0b-2a70-4a68-9dde-5f8baa8d9139.15i34ztbrz.jpeg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\7d528e0b-2a70-4a68-9dde-5f8baa8d9139.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awFKvbI7o46w18RDw0dbxNsU7lzEEu839sv+U3ROHNw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 15:34:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "15i34ztbrz"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/7d528e0b-2a70-4a68-9dde-5f8baa8d9139.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-awFKvbI7o46w18RDw0dbxNsU7lzEEu839sv+U3ROHNw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/7d528e0b-2a70-4a68-9dde-5f8baa8d9139.jpeg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\7d528e0b-2a70-4a68-9dde-5f8baa8d9139.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237449"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awFKvbI7o46w18RDw0dbxNsU7lzEEu839sv+U3ROHNw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 15:34:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-awFKvbI7o46w18RDw0dbxNsU7lzEEu839sv+U3ROHNw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c0208083-e516-4e74-a665-ecd6921c28d4.e61f0t7mkf.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\c0208083-e516-4e74-a665-ecd6921c28d4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5408758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 20:43:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e61f0t7mkf"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/c0208083-e516-4e74-a665-ecd6921c28d4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/c0208083-e516-4e74-a665-ecd6921c28d4.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\c0208083-e516-4e74-a665-ecd6921c28d4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5408758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 20:43:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cb19231d-bfe4-466c-9b2a-9806c8e8d23b.e61f0t7mkf.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\cb19231d-bfe4-466c-9b2a-9806c8e8d23b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5408758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 15:47:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e61f0t7mkf"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/cb19231d-bfe4-466c-9b2a-9806c8e8d23b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cb19231d-bfe4-466c-9b2a-9806c8e8d23b.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\cb19231d-bfe4-466c-9b2a-9806c8e8d23b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5408758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 15:47:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d930eb82-5441-47d8-9601-ed69561dc6ad.bi0cxhg052.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\d930eb82-5441-47d8-9601-ed69561dc6ad.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kzJJyLV1g2giZ2tr4rh7SUPvvB0hR2MwHwvTmvTos0I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 18:32:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bi0cxhg052"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/d930eb82-5441-47d8-9601-ed69561dc6ad.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kzJJyLV1g2giZ2tr4rh7SUPvvB0hR2MwHwvTmvTos0I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/d930eb82-5441-47d8-9601-ed69561dc6ad.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\d930eb82-5441-47d8-9601-ed69561dc6ad.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kzJJyLV1g2giZ2tr4rh7SUPvvB0hR2MwHwvTmvTos0I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 18:32:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kzJJyLV1g2giZ2tr4rh7SUPvvB0hR2MwHwvTmvTos0I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e50b7cdb-f3ed-4f50-acba-9b5571be3200.e61f0t7mkf.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\e50b7cdb-f3ed-4f50-acba-9b5571be3200.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5408758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 21:20:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e61f0t7mkf"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/e50b7cdb-f3ed-4f50-acba-9b5571be3200.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e50b7cdb-f3ed-4f50-acba-9b5571be3200.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\e50b7cdb-f3ed-4f50-acba-9b5571be3200.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5408758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 21:20:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e91370f7-9f8d-446d-822a-ed7a9ce72567.e61f0t7mkf.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\e91370f7-9f8d-446d-822a-ed7a9ce72567.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5408758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 20:33:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e61f0t7mkf"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/e91370f7-9f8d-446d-822a-ed7a9ce72567.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e91370f7-9f8d-446d-822a-ed7a9ce72567.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\e91370f7-9f8d-446d-822a-ed7a9ce72567.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5408758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 20:33:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tjcCRPxa6N1SR4FGex/1EM+4HVtuu955ZSpep5/lVq0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f2e7181e-953f-478b-a8d6-6092ef36e7c0.4jxzm7a3lx.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\f2e7181e-953f-478b-a8d6-6092ef36e7c0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gEaS2FmszC8zEcLE9zwIUoA/JvIl6LowfJXygiQdFbo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 18:47:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4jxzm7a3lx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/f2e7181e-953f-478b-a8d6-6092ef36e7c0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gEaS2FmszC8zEcLE9zwIUoA/JvIl6LowfJXygiQdFbo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f2e7181e-953f-478b-a8d6-6092ef36e7c0.jpg",
+      "AssetFile": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\f2e7181e-953f-478b-a8d6-6092ef36e7c0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gEaS2FmszC8zEcLE9zwIUoA/JvIl6LowfJXygiQdFbo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 May 2026 18:47:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gEaS2FmszC8zEcLE9zwIUoA/JvIl6LowfJXygiQdFbo="
+        }
+      ]
+    }
+  ]
+}

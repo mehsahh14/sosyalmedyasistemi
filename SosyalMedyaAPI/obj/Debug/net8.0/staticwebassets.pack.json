@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\058fe432-a695-4a7b-a67e-9d1647030d81.jpg",
+      "PackagePath": "staticwebassets\\uploads\\058fe432-a695-4a7b-a67e-9d1647030d81.jpg"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\0742af13-13a3-4b21-994b-0e4b3837c4b0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0742af13-13a3-4b21-994b-0e4b3837c4b0.jpg"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\13326d62-71a6-44b0-ab23-242daf19335b.png",
+      "PackagePath": "staticwebassets\\uploads\\13326d62-71a6-44b0-ab23-242daf19335b.png"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\18561ce5-3513-4ee4-9ac9-ded8ef82e2b7.png",
+      "PackagePath": "staticwebassets\\uploads\\18561ce5-3513-4ee4-9ac9-ded8ef82e2b7.png"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\1fcdbc28-adde-4a50-ac8e-533d84b1966b.png",
+      "PackagePath": "staticwebassets\\uploads\\1fcdbc28-adde-4a50-ac8e-533d84b1966b.png"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\2949c170-2f81-4cd1-9886-2e808473d95b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2949c170-2f81-4cd1-9886-2e808473d95b.jpg"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\40641cd1-2e87-43cf-bfdb-2b97f2dfcee4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\40641cd1-2e87-43cf-bfdb-2b97f2dfcee4.jpg"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\42f95e2c-e37c-43a5-a565-83651fdf26b5.png",
+      "PackagePath": "staticwebassets\\uploads\\42f95e2c-e37c-43a5-a565-83651fdf26b5.png"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\5b619430-0560-49e6-be88-de7cebeb3283.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5b619430-0560-49e6-be88-de7cebeb3283.jpg"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\7d528e0b-2a70-4a68-9dde-5f8baa8d9139.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\7d528e0b-2a70-4a68-9dde-5f8baa8d9139.jpeg"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\c0208083-e516-4e74-a665-ecd6921c28d4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c0208083-e516-4e74-a665-ecd6921c28d4.jpg"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\cb19231d-bfe4-466c-9b2a-9806c8e8d23b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cb19231d-bfe4-466c-9b2a-9806c8e8d23b.jpg"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\d930eb82-5441-47d8-9601-ed69561dc6ad.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d930eb82-5441-47d8-9601-ed69561dc6ad.jpg"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\e50b7cdb-f3ed-4f50-acba-9b5571be3200.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e50b7cdb-f3ed-4f50-acba-9b5571be3200.jpg"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\e91370f7-9f8d-446d-822a-ed7a9ce72567.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e91370f7-9f8d-446d-822a-ed7a9ce72567.jpg"
+    },
+    {
+      "Id": "D:\\webapplication\\SosyalMedyaAPI\\SosyalMedyaAPI\\wwwroot\\uploads\\f2e7181e-953f-478b-a8d6-6092ef36e7c0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f2e7181e-953f-478b-a8d6-6092ef36e7c0.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SosyalMedyaAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SosyalMedyaAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SosyalMedyaAPI.props",
+      "PackagePath": "build\\SosyalMedyaAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SosyalMedyaAPI.props",
+      "PackagePath": "buildMultiTargeting\\SosyalMedyaAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SosyalMedyaAPI.props",
+      "PackagePath": "buildTransitive\\SosyalMedyaAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
